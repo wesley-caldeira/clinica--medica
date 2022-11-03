@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;margin: 0;
+    padding: 0;
+}
+body {
+    
+    background-color: #fff;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+/*topo*/
+/*lnks topo*/
+.topo-especialista {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.topo-especialista a {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 2px solid #00cad1;
+    margin: 0 10px 10px;
+    font-size: 18px;
+}
+.topo-especialista a:hover{
+    color: #0d6e71;
+}
+.topo {
+    text-decoration: none;
+  color: #000;
+  border-bottom: 2px solid #00cad1;
+  margin: 0 10px 10px;
+  font-size: 18px;
+}
+/*links topo*/
+
+/*titulo topo*/
+h1 {
+    text-align: center;
+}
+/*titulo topo*/
+
+/*topo*/
+
+/*corpo*/
+/*img*/
+.imagen-especialista img {
+    padding-top: 8px;
+    height: 175px;
+}
+.imagen-especialista:nth-of-type(5n) {
+    height: 400px ;
+}
+.horarios-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/*img*/
+
+/*tabela*/
+.tabela-especialista td, .tabela-especialista th{
+    padding: 10px;
+}
+
+tr:nth-of-type(2n+1) {
+    background-color: #9689898c;
+    border: 1px solid #f1f1f1;
+}
+
+th {
+    background-color: #00cad1;
+    color: #fff;
+
+}
+/*tabela*/
+/*corpo*/

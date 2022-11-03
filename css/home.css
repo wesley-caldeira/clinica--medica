@@ -1,0 +1,179 @@
+/*estilos gerais*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', 'sans-serif';
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    color: #0000008c;
+    margin-bottom: 60px;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.container-conteudo {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container-conteudo h2,
+.container-conteudo h3 {
+    margin: 0;
+}
+
+/*Inicio CSS Topo*/
+.topo {
+    background-color: #00cad1;
+    width: 100%;
+}
+
+.topo .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 60px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.topo-titulo {
+    font-weight: 600;
+    font-size: 28px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topo-logo {
+    height: 60px;
+}
+
+.topo-links {
+    display: flex;
+}
+
+.topo-links a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.topo-links a:hover {
+    color: #004b4c;
+}
+
+/*fim do topo*/
+/*inicio do conteudo*/
+.box-visao-geral {
+    background-image: url('../assets/recepcao.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    
+}
+.box-visao-geral h1 {
+    text-transform: uppercase;
+    height: 100%;
+}
+
+.box-visao-geral .container {
+    font-size: 25px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+
+    margin-left: 20px;
+    padding-top: 70px;
+}
+
+/*fim do conteudo*/
+/*inicio do sobre*/
+.container-conteudo {
+    margin-top: 50px;
+}
+.secao-sobre .container{
+    max-width: 1024px;
+}
+.box-sobre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 60px;
+}
+.box-sobre img {
+    height: 250px;
+}
+/*fim do sobre*/
+/*incio do especialista*/
+.box-especialidades {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .box-especialidade{
+    border-radius: 3px;
+    box-shadow: 0px 1px 10px rgb(0 0 0 / 50%);
+    margin: 20px;
+    width: calc(100% / 3 - 40px);
+  }
+  
+  .box-especialidade img {
+    width: 100%;
+  }
+  
+  .box-especialidade figcaption {
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+  }
+  
+  .box-link-horarios {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .link-horarios {
+    background-color: #00cad1;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+
+/*fim do especialista*/
+
+/*inicio do contatos*/
+
+.secao-contatos .container {
+    max-width: 1024px;
+}
+strong {
+    font-weight: bold;
+}
+/*fim do contatos*/
+
+footer {
+    text-align: center;
+    background-color: #08777b;
+    color: #fff;
+    padding: 20px;
+}
