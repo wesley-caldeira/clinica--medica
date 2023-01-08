@@ -24,15 +24,5 @@ Funcionalidade 2:   Navegação com localizaçao para o envio para o google mapa
 Funcionalidade 3:   Responsividade para 1020px, 768px, 425px
 
 ## Layout
-<table>
-<tr> <img style="width:300px;" src="assets\layout\capa-425.png" /></tr>
-<tr> <img style="width:300px;" src="assets\layout\especialista425.png" /></tr>
-</table>
-<table>
-<tr> <img style="width:300px;" src="assets\layout\capa-768.png" /></tr>
-<tr> <img style="width:300px;" src="assets\layout\especialista 768V.png" /></tr>
-</table>
-<table>
-<tr> <img style="width:300px;" src="assets\layout\capa.png" /></tr>
-<tr> <img style="width:300px;" src="assets\layout\especialista 1024.png" /></tr>
-</table>
+
+* Encontre fotos e videos sobre o layout do projeto <a href="assets\layout" >Click aqui</a>
